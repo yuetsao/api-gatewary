@@ -17,4 +17,7 @@ zuul:
   routes:
     order-service: /apigateway/order/**
     product-service: /apigateway/product/**
+  #处理请求头无法传递cookie的情况
+  sensitive-headers:
+
 
